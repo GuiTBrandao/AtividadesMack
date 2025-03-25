@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+  }
+  
+h1 {
+    color: black;
+    text-align: center;
+  }
+  
+p {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+  }
+
+a.tipo1 {
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 4px;
+  }
+
+.container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+.box {
+    padding: 20px;
+}
+
